@@ -10,7 +10,7 @@ UPLOAD_FOLDER = "static"
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 # ✅ Load model and class names
-model = tf.keras.models.load_model("plant_disease_model.h5")
+model = tf.keras.models.load_model("plant_disease_model_fixed.keras")
 class_names = np.load("class_names.npy")
 
 # Home page
